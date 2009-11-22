@@ -13,6 +13,7 @@
 # Todo:
 #  - Add regexp capabilities for the database-specifications
 #  - Record elapsed time for backup
+#  - Check for user configuration file, i.e. ~/.rmysqldump.conf
 
 begin
   require 'fileutils'
