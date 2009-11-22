@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 # $Id: rmysqldump.rb,v 1.7 2007/11/28 11:48:22 jage Exp $
 #
 # Written by Johan Eckerström <johan@jage.se> 
@@ -194,5 +192,3 @@ module MySQL
     end
   end
 end
-
-MySQL::Dump.new(MySQL::Databases.new).execute
