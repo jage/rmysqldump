@@ -9,7 +9,7 @@ begin
     gemspec.summary = "Dump MySQL databases"
     gemspec.description = "Dumping MySQL databases on the Starkast servers"
     gemspec.email = "johan@duh.se"
-    gemspec.homepage = "http://github.com/jage/rmysqldump"
+    gemspec.homepage = "http://github.com/Starkast/rmysqldump"
     gemspec.authors = ["Johan Eckerström"]
     gemspec.files = FileList["rmysqldump.conf", "bin/rmysqldump", "lib/rmysqldump.rb"]
     gemspec.add_dependency("mysql", ["> 0.0.0"])
